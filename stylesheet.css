@@ -1,0 +1,119 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Hiragino Kaku Gothic ProN W3', sans-serif;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* ここからCSSを書いていきましょう */
+header{
+  background-color:rgba(34,49,52,0.9);
+  color:white;
+  height:65px;
+  width:100%;
+  position:fixed;
+  top:0px;
+  
+  z-index:1;
+  
+}
+.header-container{
+  width:1170px;
+  margin:0 auto;
+}
+.header-logo{
+  float:left;
+  padding-top:20px;
+}
+.header-logo img{
+  width:124px;
+  
+}
+.login-link{
+  color:white;
+  display:block;
+  float:right;
+  background-color:rgba(255,255,255,0.3);
+  padding:0 25px 0 25px;
+  height:65px;
+  line-height:65px;
+  transition:all 0.5s;
+}
+.login-link:hover{
+  background-color:rgba(255,255,255,0.5);
+}
+
+.top-wrapper{
+  background-image:url(https://prog-8.com/images/html/advanced/top.png);
+  background-size:cover;
+  text-align:center;
+  color:white;
+}
+h1{
+  font-size:45px;
+  opacity:0.7;
+  padding-top:180px;
+  letter-spacing:5px;
+}
+.top-wrapper p{
+  opacity:0.7;
+}
+.container{
+  width:1170px;
+  margin:0 auto;
+}
+.btn{
+  padding:8px 24px;
+  color:white;
+  display:inline-block;
+  opacity:0.8;
+  border-radius:4px;
+}
+.btn:hover{
+  opacity:1;
+}
+span{
+  padding-right:5px;
+}
+.register{
+  background-color:#239b76;
+  margin:30px 0 15px 0;
+}
+.facebook{
+  background-color:#3b5998;
+  margin:15px 10px 100px 0;
+}
+.twitter{
+  background-color:#55acee;
+  margin-top:15px;
+  margin-bottom:100px;
+}
+.lesson-wrapper{
+  background-color:#f7f7f7;
+  height:580px;
+}
+.lesson-container{
+  width:1170px;
+  text-align:center;
+}
+.lesson-container h2{
+  font-weight:normal;
+  padding-top:80px;
+  text-align:center;
+}
+.lesson{
+  float:left;
+  width:25%;
+}
